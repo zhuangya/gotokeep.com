@@ -1,10 +1,12 @@
-$(function () {
-  $('.fittext').fitText();
+'use strict';
 
+$(function () {
+  $('body').flowtype({
+    minimum : 300,
+    maximum : 860
+  });
   var $landing = $('#landing');
   var $doc = $('html, body');
-
-  var scrollTimer;
 
   $('.down-arrow').click(function () {
     $doc.animate({

@@ -18,13 +18,8 @@ html, body {
 
 body {
   font-size: 12px;
+  line-height: 1.45;
   font-family: 'NotoSansHans-Thin', 'microsoft yahei', sans-serif;
-}
-
-@media only screen and (max-width: 320px) {
-  body {
-    font-size: 10px;
-  }
 }
 
 .landing {
@@ -54,8 +49,8 @@ body {
 
 .down-arrow {
   text-align: center;
-  margin-top: -30px;
-  font-size: 14px;
+  margin-top: -1.3em;
+  font-size: .6em;
   color: white;
   animation: glow 4s infinite linear;
   display: block;
@@ -105,7 +100,7 @@ body {
 }
 
 .lead {
-  font-size: 32px;
+  font-size: 1.333333em;
 }
 
 .tcenter {
@@ -117,11 +112,11 @@ body {
 }
 
 h2.slogan {
-  font-size: 6.6rem;
+  font-size: 2.4em;
 }
 
 .wait {
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .browsehappy {
@@ -139,7 +134,7 @@ h2.slogan {
 }
 
 .tagline {
-  font-size: 1.4rem;
+  font-size: 1em;
   text-align: center;
   line-height: 2;
   margin: 40px auto;
@@ -148,7 +143,7 @@ h2.slogan {
 .job-description {
   max-width: 640px;
   margin: auto;
-  font-size: 1.4rem;
+  font-size: .75em;
   padding: 6px;
 }
 
@@ -158,15 +153,21 @@ footer {
   margin: auto;
   color: #d8d8d8;
   text-align: center;
+  font-size: .5em;
 }
 
 
 .job-title {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
 .byline {
-  font-size: 14px;
+  font-size: 1em;
   color: #333;
+}
+
+.mark {
+  background-color: #ffeb83;
+  color: black;
 }
