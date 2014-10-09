@@ -26,6 +26,35 @@ body {
   background-color: blue;
 }
 
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: 0 0 16px white;
+  }
+  100% {
+    text-shadow: 0 0 8px white;
+  }
+}
+
+.down-arrow {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 14px;
+  color: white;
+  animation: glow 4s infinite linear;
+  display: block;
+}
+
+.down-arrow:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 0 14px white;
+}
+
+
 @keyframes bganimate {
   50% {
     background-color: purple;

@@ -1,7 +1,16 @@
 $(function () {
   $('.fittext').fitText();
 
+  var $landing = $('#landing');
+  var $doc = $('html, body');
+
   var scrollTimer;
+
+  $('.down-arrow').click(function () {
+    $doc.animate({
+      scrollTop: $landing.outerHeight()
+    }, '500', 'swing');
+  });
 
   $(window).scroll(function () {
 
@@ -11,9 +20,9 @@ $(function () {
       var logoHeight = $('#logo').outerHeight();
 
       if (windowTop + logoHeight > landingHeight) {
-        $('#logo').hide();
+        $('#logo, .down-arrow').hide();
       } else {
-        $('#logo').show();
+        $('#logo, .down-arrow').show();
       }
     }, 100);
   });
