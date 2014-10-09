@@ -50,7 +50,7 @@ body {
 .down-arrow {
   text-align: center;
   margin-top: -1.3em;
-  font-size: .6em;
+  font-size: .8em;
   color: white;
   animation: glow 4s infinite linear;
   display: block;
