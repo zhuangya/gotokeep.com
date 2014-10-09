@@ -15,53 +15,80 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">website</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-
+    <div id="landing" class="landing">
+      <h1 id="logo" class="marvel">keep</h1>
+      <div class="highlight">
+        <div class="content">
+          <h2 class="slogan fittext">运动是一种生活态度</h2>
+          <hr class="fancy-hr"/>
+          <strong class="wait fixtext">敬请期待</strong>
         </div>
       </div>
+    </div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    <div class="job-description">
+      <div class="intro">
+        <p class="tagline fittext">#KEEP给你的不仅仅是工作，还有肌肉#</p>
+
+        <hr class="fancy-hr"/>
+
+        <p>我是一个热爱运动、热爱生活的年轻团队。我们的产品同样服务于热爱运动、热爱生活的人。团队中的每个人都是健身和运动的爱好者。我们希望通过自己的努力，让更多的人爱上运动，爱上生活。</p>
+
+        <p>团队成员都很年轻，条条框框的约束根本不属于我们，我们喜欢大声说出自己的想法，我们不提倡加班，我们只希望打造一个充满活力、热爱生活富有激情的高效团队。</p>
+
+        <p>现在，我们只希望能找到志同道合有梦想的年轻人加入我们，和我们一起打造一款改善人们运动方式的酷酷产品。</p>
+
+        <p>如果你足够优秀，足够爱运动，请将简历投递至 hr@gotokeep.com。</p>
+
       </div>
+
+      <div class="content">
+
+        <p class="job-title">iOS开发工程师</p>
+        <ul>
+          <li>有至少一年以上开发经验；</li>
+          <li>能独立开发完成一个完整的iOS项目；</li>
+          <li>追求完美，有自己的产品想法和见解；</li>
+          <li>健身和运动爱好者是加分项；</li>
+          <li>符合上述要求的实习生我们也同样欢迎。</li>
+        </ul>
+        <p class="job-title">Android开发工程师</p>
+        <ul>
+          <li>有至少一年以上开发经验；</li>
+          <li>能独立开发完成一个完整的Android项目；</li>
+          <li>追求完美，有自己的产品想法和见解；</li>
+          <li>健身和运动爱好者是加分项；</li>
+          <li>符合上述要求的实习生我们也同样欢迎。</li>
+        </ul>
+        <p class="job-title">UI设计师</p>
+        <p class="byline">#在KEEP，设计大于一切#，所以你是我们的“老大”！</p>
+        <ul>
+          <li>一个UI设计师应该具备的专业技能；</li>
+          <li>有至少一年的手机App设计经验；</li>
+          <li>能独立设计完成一个完整的iOS或者Android App；</li>
+          <li>追求完美，有自己的产品想法和见解；</li>
+          <li>健身和运动爱好者是加分项；</li>
+          <li>符合上述要求的实习生我们也同样欢迎。</li>
+        </ul>
+      </div>
+
 
     </div>
 
+    <hr class="fancy-hr"/>
+    <footer>&copy; 2014 gotokeep.com</footer>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/FitText.js/jquery.fittext.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -74,21 +101,6 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-
-        <!-- build:js(.) scripts/plugins.js -->
-        <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
