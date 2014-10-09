@@ -88,10 +88,14 @@ body {
 
 #logo {
   position: fixed;
+  background: url(/images/keep.png) transparent no-repeat right bottom;
   top: 0;
   left: 0;
   padding: 20px 0 0 30px;
   margin: 0;
+  height: 60px;
+  width: 200px;
+  text-indent: -9999px;
 }
 
 .highlight .content {
