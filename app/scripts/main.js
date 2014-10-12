@@ -2,7 +2,9 @@
 
 $(function () {
   $('body').flowtype({
-    minimum : 300,
+    minFont: 14,
+    maxFont: 40,
+    minimum : 500,
     maximum : 860
   });
   var $landing = $('#landing');
